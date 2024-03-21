@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listas + Tablas + Formularios</title>
+  </head>
+  <body>
+    <!-- Listas -->
+    <!-- ordenadas -->
+    <ol>
+      <!-- list item -->
+      <li>Item</li>
+      <li>Item</li>
+      <li><button>boton</button></li>
+      <li>
+        <a href="">Link</a>
+      </li>
+    </ol>
+
+    <!-- desordenadas -->
+    <ul>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+      <li><img src="" alt="" /></li>
+    </ul>
+
+    <!-- Tablas -->
+    <!-- sin esquema -->
+    <table>
+      <!-- table row (fila) -->
+      <tr>
+        <!-- table header -->
+        <th>id</th>
+        <th>Titulo</th>
+        <th>Precio</th>
+        <th>Descripcion</th>
+      </tr>
+      <tr>
+        <th rowspan="2">1</th>
+        <!-- table data (para datos) -->
+        <td>Producto 1</td>
+        <td>600</td>
+        <td>hlkasgbjldkjblgblkasbdklgblkbasldbgbllb</td>
+      </tr>
+      <tr>
+        <!-- table data (para datos) -->
+        <td>Producto 2</td>
+        <td>123</td>
+        <td>ñknfñlaknñslknfñ</td>
+      </tr>
+      <tr>
+        <th colspan="4">Pie de la tabla</th>
+      </tr>
+    </table>
+
+    <!-- con esquema -->
+    <table>
+      <!-- encabezado de la tabla -->
+      <thead>
+        <tr>
+          <th colspan="4">Titulo de la tabla</th>
+        </tr>
+        <tr>
+          <th>id</th>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <!-- Cuerpo de la tabla -->
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td>Juan</td>
+          <td>Pereyra</td>
+          <td>juanPereyra@gmail.com</td>
+        </tr>
+        <tr>
+          <th>1</th>
+          <td>Juan</td>
+          <td>Pereyra</td>
+          <td>juanPereyra@gmail.com</td>
+        </tr>
+        <tr>
+          <th>1</th>
+          <td>Juan</td>
+          <td>Pereyra</td>
+          <td>juanPereyra@gmail.com</td>
+        </tr>
+        <tr>
+          <th>1</th>
+          <td>Juan</td>
+          <td>Pereyra</td>
+          <td>juanPereyra@gmail.com</td>
+        </tr>
+        <tr>
+          <th>1</th>
+          <td>Juan</td>
+          <td>Pereyra</td>
+          <td>juanPereyra@gmail.com</td>
+        </tr>
+      </tbody>
+      <!-- Pie de la tabla -->
+      <tfoot>
+        <tr>
+          <th colspan="4">Pie de tabla</th>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!-- input -->
+    <input type="text" />
+    <input type="number" />
+    <input type="checkbox" />
+    <input type="time" />
+    <input type="date" />
+    <input type="file" />
+
+    <!-- genera un salto de linea (se usa para texto) -->
+    <p>
+      texto de ejemplo. <br />
+      se salto la linea
+    </p>
+
+    <!-- formularios -->
+    <form>
+      <div>
+        <!-- label (titulo del input) -->
+        <label>Nombre</label>
+        <input type="text" />
+      </div>
+      <div>
+        <input type="text" placeholder="Apellido" />
+      </div>
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>
