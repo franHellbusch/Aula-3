@@ -1,0 +1,59 @@
+/* Fuentes (traidas mediante import) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Scribble&display=swap");
+
+/* unidades de medida (algunas) */
+/* unidad de medida exacta: px (pixeles) */
+/* unidad de medida relativa: % (porcentaje) */
+
+/* background (fondos) */
+.container {
+  /*  aplicando color al fondo */
+  background-color: #b3c8cf;
+
+  /* Imagen de fondo */
+  background-image: url(https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D);
+
+  /* repeticion de la imagen de fondo */
+  /* estilo por defecto */
+  background-repeat: repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  /* que no se repita */
+  background-repeat: no-repeat;
+
+  /* Tamaño del background */
+  background-size: 400px 600px;
+  background-size: 100% 100%;
+  background-size: contain;
+  background-size: cover;
+
+  background-size: 400px 600px;
+
+  /* posicionamiento del background */
+  /* centro */
+  background-position: center;
+  /* izquierda */
+  background-position: left;
+  /* derecha */
+  background-position: right;
+  /* arriba */
+  background-position: top;
+  /* abajo */
+  background-position: bottom;
+}
+
+/* fuentes (Letra) */
+.titulo {
+  /* Tamaño de fuente */
+  font-size: 100px;
+  /* Color de letra */
+  color: #2e005a;
+  /* Grosor de la letra */
+  font-weight: 300;
+  /* Estilo de la fuente */
+  font-style: normal;
+  /* familia de la fuente */
+  font-family: "Times New Roman", Times, serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik Scribble", system-ui;
+}

@@ -1,0 +1,86 @@
+/* quitar margen y padding a todas las etiquetas */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* box model */
+.container {
+  background-color: aqua;
+  /* contenido de la etiqueta */
+  /* ancho */
+  width: 300px;
+  width: 50%;
+  /* altura */
+  height: 50%;
+  height: 300px;
+
+  /* padding: relleno */
+  /* todos los lados */
+  padding: 20px;
+  /* izquierda */
+  padding-left: 100px;
+  /* derecha */
+  padding-right: 50px;
+  /* arriba */
+  padding-top: 70px;
+  /* abajo */
+  padding-bottom: 200px;
+  /* forma rapida o disminuida */
+  /* arriba/abajo y derecha/izquierda */
+  padding: 50px 100px;
+  /* todos los lados con tamaños distintos */
+  /* arriba > derecha > abajo > izquierdas */
+  padding: 100px 20px 50px 70px;
+
+  /* border */
+  /* color */
+  border-color: blue;
+  /* tamaño */
+  border-width: 10px;
+  /* Estilo de borde */
+  border-style: dashed;
+  border-style: dotted;
+  border-style: double;
+  border-style: solid;
+  /* radio del border / curva */
+  border-radius: 50%;
+  border-radius: 100px;
+  /* forma rapida o disminuida */
+  border: 30px double red;
+  /* valores en base al lado especificado */
+  /* izquierda */
+  border-left: 10px dotted blue;
+  /* derecha */
+  border-right: 25px dashed orange;
+  /* arriba */
+  border-top: 5px solid green;
+  /* abajo */
+  border-bottom: 50px double yellow;
+
+  /* margin */
+  /* todos los lados */
+  margin: 100px;
+  /* izquierda */
+  margin-left: 20px;
+  /* derecha */
+  margin-right: 30px;
+  /* arriba */
+  margin-top: 60px;
+  /* abajo */
+  margin-bottom: 40px;
+  /* forma rapida o disminuida */
+  /* arriba/abajo y derecha/izquierda */
+  margin: 40px 100px;
+  /* todos los lados con tamaños distintos */
+  /* arriba > derecha > abajo > izquierdas */
+  margin: 10px 20px 50px 60px;
+}
+
+.image {
+  width: 400px;
+  background-color: blueviolet;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 10px;
+}

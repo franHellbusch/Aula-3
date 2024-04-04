@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Flexbox (Modelo de caja flexible) */
+.container {
+  height: 500px;
+  background-color: #67ffff;
+  /* display */
+  display: inline-flex;
+  display: flex;
+
+  /* flex-direction */
+  /* column (columna) */
+  flex-direction: column;
+  /* row-reverse (fila al reves) */
+  flex-direction: row-reverse;
+  /* column-reverse (columna al reves) */
+  flex-direction: column-reverse;
+  /* row (fila, estilo por defecto) */
+  flex-direction: row;
+
+  /* justify-content (distribuir el espacio entre los elementos flex de forma horizontal) */
+  /* cuando sea column se utilizara para distribuir verticalmente */
+  /* al principio (por defecto) */
+  justify-content: flex-start;
+  /* al final */
+  justify-content: flex-end;
+  /* centro */
+  justify-content: center;
+  /* space-between */
+  justify-content: space-between;
+  /* space-around */
+  justify-content: space-around;
+  /* space-evenly */
+  justify-content: space-evenly;
+
+  /* align items (alinear los items en el espacio disponible, de forma vertical en row) */
+  /* cuando sea column se utilizara para alinear los elemento en horizontal */
+  /* los hijos se expanden lo maximo posible (por defecto) */
+  align-items: stretch;
+  /* al principio */
+  align-items: flex-start;
+  /* al final */
+  align-items: flex-end;
+  /* center */
+  align-items: center;
+
+  /* flex wrap */
+  /* nowrap (no genera salto de linea, por defecto) */
+  flex-wrap: nowrap;
+  /* wrap-reverse (genera salto de linea para arriba) */
+  flex-wrap: wrap-reverse;
+  /* wrap (genera un salto de linea) */
+  flex-wrap: wrap;
+
+  /* align-content (permite el alineamiento en multiples lineas) */
+  /* alinea multiple columnas cuando es column */
+  /* al principio */
+  align-content: flex-start;
+  /* al final */
+  align-content: flex-end;
+  /* centro */
+  align-content: center;
+  /* space-between */
+  align-content: space-between;
+  /* space-around */
+  align-content: space-around;
+  /* space-evenly */
+  align-content: space-evenly;
+}
