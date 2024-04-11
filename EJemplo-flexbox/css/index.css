@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* header */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f7fa;
+  padding: 15px 100px;
+}
+
+.header_title {
+  display: flex;
+  align-items: center;
+}
+
+.header_title > img {
+  margin-right: 5px;
+}
+
+.header_navigation {
+  display: flex;
+  gap: 40px;
+}
+
+.header_navigation > a {
+  text-decoration: none;
+  color: #18191f;
+}
+
+.header_buttons_login {
+  color: #4caf4f;
+  font-weight: 500;
+  background: none;
+  border: 0;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.header_buttons_register {
+  color: #ffffff;
+  font-weight: 500;
+  background-color: #4caf4f;
+  border: 0;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+/* Presentation section */
+
+.presentation {
+  background-color: #f5f7fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 100px 0;
+}
+
+.presentation_content > h2 {
+  font-size: 64px;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+
+.presentation_content > h2 > span {
+  color: #4caf4f;
+}
+
+.presentation_content > p {
+  color: #717171;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.presentation_content > button {
+  color: #ffffff;
+  background-color: #4caf4f;
+  border: 0;
+  padding: 15px 25px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Service Section */
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.service > h3 {
+  color: #4d4d4d;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.service > p {
+  color: #717171;
+  margin-top: 10px;
+}
+
+.service-icons {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.service-cards {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.service-card-content {
+  width: 250px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.service-card-content > h4 {
+  color: #4d4d4d;
+  font-weight: 700;
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.service-card-content {
+  color: #717171;
+  font-size: 14px;
+}
