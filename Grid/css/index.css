@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* gird */
+.container {
+  display: grid;
+  /* Especificamos la cantidad de columnas y sus tamaños */
+  grid-template-columns: auto auto auto;
+  /* Especificamos la cantidad de filas y sus tamaños */
+  grid-template-rows: 200px 200px 200px 200px;
+  /* Manejamos cuanto ocupa cada elemento */
+  grid-template-areas:
+    "navigation header header"
+    "navigation productos publicidad"
+    "navigation servicios publicidad"
+    "navigation footer footer";
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+}
+
+.nav,
+.header,
+.productos,
+.publicidad,
+.servicios,
+.footer {
+  border-radius: 10px;
+}
+
+.nav {
+  grid-area: navigation;
+  background-color: aqua;
+}
+
+.header {
+  grid-area: header;
+  background-color: blueviolet;
+}
+
+.productos {
+  grid-area: productos;
+  background-color: blue;
+}
+
+.servicios {
+  grid-area: servicios;
+  background-color: green;
+}
+
+.publicidad {
+  grid-area: publicidad;
+  background-color: yellow;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: red;
+}
