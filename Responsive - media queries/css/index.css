@@ -1,0 +1,21 @@
+/* max-width: define el tamaño maximo en el cual se aplican los estilos */
+/* min-width: define el tamaño minimo desde el cual arranca a aplicar los estilos */
+h1 {
+  color: red;
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media ((min-width: 979px) and (max-width: 1200px)) {
+  h1 {
+    color: blue;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+}
